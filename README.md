@@ -70,10 +70,10 @@ from torch.utils.data import TensorDataset, DataLoader
 data = pd.read_csv('/content/customers (1).csv')
 df
 ```
-```
+
 <img width="1593" height="324" alt="image" src="https://github.com/user-attachments/assets/83591d32-fbcf-405d-b348-cb56222e93b6" />
 
-```
+
 ```
 df=df.drop(columns=["ID"])
 df
@@ -81,9 +81,9 @@ df
 ```
 df.columns
 ```
-```
+
 <img width="1092" height="129" alt="image" src="https://github.com/user-attachments/assets/c0b92088-dcfd-415c-8294-1f2ec4e8d8ed" />
-```
+
 ```
 df.fillna({"Work_Experience":0,"Family_Size":df["Family_Size"].median()},inplace=True)
 ```
