@@ -167,6 +167,8 @@ train_model(model, train_loader, criterion, optimizer, epochs)
 ```
 <img width="533" height="157" alt="image" src="https://github.com/user-attachments/assets/48e53f50-655c-4eec-b79f-450eb9478697" />
 ```
+
+
 # Evaluation
 model.eval()
 predictions, actuals = [], []
