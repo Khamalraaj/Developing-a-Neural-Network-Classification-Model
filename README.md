@@ -177,9 +177,9 @@ epochs = 50
 train_model(model, train_loader, criterion, optimizer, epochs)
 ```
 
-```
+
 <img width="533" height="157" alt="image" src="https://github.com/user-attachments/assets/48e53f50-655c-4eec-b79f-450eb9478697" />
-```
+
 
 ```
 ## Evaluation:
@@ -217,10 +217,10 @@ plt.ylabel("True Labels")
 plt.title("Confusion Matrix")
 plt.show()
 ```
-```
+
 <img width="1059" height="708" alt="image" src="https://github.com/user-attachments/assets/1554edac-fad2-425f-938f-4fdcf840f6cf" />
 
-```
+
 ```
 # Prediction for a sample input
 sample_input = X_test[12].clone().unsqueeze(0).detach().type(torch.float32)
@@ -234,11 +234,10 @@ print("Register No:212224230122")
 print(f'Predicted class for sample input: {predicted_class_label}')
 print(f'Actual class for sample input: {label_encoder.inverse_transform([y_test[12].item()])[0]}')
 ```
-```
+
+
 <img width="519" height="114" alt="image" src="https://github.com/user-attachments/assets/3a6a3cf1-a7ce-47b8-a1e1-08e825522803" />
 
-
-```
 
 ## RESULT:
 This program has been executed successfully.
