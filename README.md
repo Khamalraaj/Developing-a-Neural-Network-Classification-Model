@@ -204,10 +204,9 @@ print(f'Test Accuracy: {accuracy:.2f}%')
 print("Confusion Matrix:\n", conf_matrix)
 print("Classification Report:\n", class_report)
 ```
-```
+
 <img width="943" height="547" alt="image" src="https://github.com/user-attachments/assets/4f17343f-e638-4fa9-96b3-833466a99cfd" />
 
-```
 ```
 import seaborn as sns
 import matplotlib.pyplot as plt
